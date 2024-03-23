@@ -1,0 +1,156 @@
+header {
+  background-color: #87a0d3;
+  color: white;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  text-transform: uppercase !important;
+}
+
+button:hover {
+  background-color: rgb(58, 126, 146) !important;
+  color: #000 !important;
+  text-transform: uppercase;
+}
+
+/* =============================================Header====================================================== */
+
+a.nav-link,
+a.nav-link.active {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* =============================================Home======================================================== */
+
+.home {
+  height: 91vh;
+  background-image: url("https://www.shutterstock.com/image-vector/web-development-coding-cross-platform-260nw-1128653108.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hcontent {
+  position: relative;
+  right: -25em;
+  width: 20% !important;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsla(27, 43%, 51%, 0.3);
+  border: 1px solid black;
+  border-radius: 10px;
+  color: rgb(228, 211, 175);
+}
+
+/* ============================================About======================================================== */
+
+.about {
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============================================Contact====================================================== */
+
+.contact {
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact textarea,
+input {
+  width: 100%;
+}
+
+.contact .btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 30%;
+  background: rgba(139, 73, 73, 0.2);
+  padding: 1em;
+  margin: 0em 5em 0 0;
+  border-radius: 1em;
+}
+
+.map {
+  border: 1px solid gray;
+  padding: 0;
+  margin: 0;
+}
+
+/* ============================================AllNews============================================== */
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* ============================================Footer======================================================= */
+footer {
+  background-color: #282c34;
+  color: white;
+}
+
+.footer-f {
+  text-align: center;
+}
+
+footer .v-hr {
+  width: 50px;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+
+  footer .v-hr {
+    /* transform: rotate(0deg);
+    width: 50%;
+    text-align: center; */
+    visibility: hidden;
+  }
+}
