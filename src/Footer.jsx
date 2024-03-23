@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="conatiner-fluid">
+    <footer className="conatiner-fluid py-1">
       <div className="row align-items-center text-center">
         <div className="col-md-4">
           <h5>ErpMechSoft</h5>
